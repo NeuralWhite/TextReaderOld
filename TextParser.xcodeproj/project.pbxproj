@@ -1,0 +1,372 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8C2916321A7BD27C0087EA1D /* SoundParser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C2916301A7BD27C0087EA1D /* SoundParser.cpp */; };
+		8C2916371A7BD6C70087EA1D /* TextFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C2916351A7BD6C70087EA1D /* TextFile.cpp */; };
+		8C34AD631A7D6227009553B3 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C34AD621A7D6227009553B3 /* libxml2.dylib */; };
+		8C34AD661A7D62BE009553B3 /* Letter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C34AD641A7D62BE009553B3 /* Letter.cpp */; };
+		8C40917F1A78229400DB0135 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C40917E1A78229400DB0135 /* main.cpp */; };
+		8C40918C1A78238500DB0135 /* CommonError.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C40918A1A78238500DB0135 /* CommonError.cpp */; };
+		8C4091901A78254600DB0135 /* CMDParser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C40918E1A78254600DB0135 /* CMDParser.cpp */; };
+		8C4091921A78322500DB0135 /* common.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C4091911A78322500DB0135 /* common.cpp */; };
+		8C5EDB851A813BC70012A678 /* WordReducer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8C5EDB831A813BC70012A678 /* WordReducer.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8C4091791A78229400DB0135 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8C2916301A7BD27C0087EA1D /* SoundParser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SoundParser.cpp; sourceTree = "<group>"; };
+		8C2916311A7BD27C0087EA1D /* SoundParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundParser.h; sourceTree = "<group>"; };
+		8C2916341A7BD5DB0087EA1D /* File.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = File.h; sourceTree = "<group>"; };
+		8C2916351A7BD6C70087EA1D /* TextFile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TextFile.cpp; sourceTree = "<group>"; };
+		8C2916361A7BD6C70087EA1D /* TextFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextFile.h; sourceTree = "<group>"; };
+		8C29163D1A7BDADC0087EA1D /* Array.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Array.h; sourceTree = "<group>"; };
+		8C34AD621A7D6227009553B3 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		8C34AD641A7D62BE009553B3 /* Letter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Letter.cpp; sourceTree = "<group>"; };
+		8C34AD651A7D62BE009553B3 /* Letter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Letter.h; sourceTree = "<group>"; };
+		8C34AD671A7D62CA009553B3 /* ILetter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ILetter.h; sourceTree = "<group>"; };
+		8C40917B1A78229400DB0135 /* TextParser */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TextParser; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C40917E1A78229400DB0135 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8C4091861A7822AC00DB0135 /* Error.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Error.h; sourceTree = "<group>"; };
+		8C4091891A7822DE00DB0135 /* common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = common.h; sourceTree = "<group>"; };
+		8C40918A1A78238500DB0135 /* CommonError.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CommonError.cpp; sourceTree = "<group>"; };
+		8C40918B1A78238500DB0135 /* CommonError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonError.h; sourceTree = "<group>"; };
+		8C40918E1A78254600DB0135 /* CMDParser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CMDParser.cpp; sourceTree = "<group>"; };
+		8C40918F1A78254600DB0135 /* CMDParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMDParser.h; sourceTree = "<group>"; };
+		8C4091911A78322500DB0135 /* common.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = common.cpp; sourceTree = "<group>"; };
+		8C5EDB801A7F2AAE0012A678 /* VowelLetter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VowelLetter.h; sourceTree = "<group>"; };
+		8C5EDB811A7F2ACF0012A678 /* ConsonantLetter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConsonantLetter.h; sourceTree = "<group>"; };
+		8C5EDB831A813BC70012A678 /* WordReducer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = WordReducer.cpp; sourceTree = "<group>"; };
+		8C5EDB841A813BC70012A678 /* WordReducer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WordReducer.h; sourceTree = "<group>"; };
+		8C5EDB861A813C1C0012A678 /* ISoundParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ISoundParser.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8C4091781A78229400DB0135 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C34AD631A7D6227009553B3 /* libxml2.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8C29162F1A7BD22B0087EA1D /* PrimaryTextParser */ = {
+			isa = PBXGroup;
+			children = (
+				8C5EDB7F1A7F2A9B0012A678 /* Letters */,
+				8C2916301A7BD27C0087EA1D /* SoundParser.cpp */,
+				8C2916311A7BD27C0087EA1D /* SoundParser.h */,
+				8C5EDB861A813C1C0012A678 /* ISoundParser.h */,
+			);
+			name = PrimaryTextParser;
+			sourceTree = "<group>";
+		};
+		8C2916331A7BD5C90087EA1D /* FileReader */ = {
+			isa = PBXGroup;
+			children = (
+				8C2916341A7BD5DB0087EA1D /* File.h */,
+				8C2916351A7BD6C70087EA1D /* TextFile.cpp */,
+				8C2916361A7BD6C70087EA1D /* TextFile.h */,
+			);
+			name = FileReader;
+			sourceTree = "<group>";
+		};
+		8C29163B1A7BDACD0087EA1D /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				8C4091891A7822DE00DB0135 /* common.h */,
+				8C4091911A78322500DB0135 /* common.cpp */,
+				8C29163D1A7BDADC0087EA1D /* Array.h */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		8C4091721A78229400DB0135 = {
+			isa = PBXGroup;
+			children = (
+				8C34AD621A7D6227009553B3 /* libxml2.dylib */,
+				8C40917D1A78229400DB0135 /* TextParser */,
+				8C40917C1A78229400DB0135 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8C40917C1A78229400DB0135 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8C40917B1A78229400DB0135 /* TextParser */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8C40917D1A78229400DB0135 /* TextParser */ = {
+			isa = PBXGroup;
+			children = (
+				8C5EDB821A813B8C0012A678 /* WordReducer */,
+				8C29163B1A7BDACD0087EA1D /* Common */,
+				8C2916331A7BD5C90087EA1D /* FileReader */,
+				8C29162F1A7BD22B0087EA1D /* PrimaryTextParser */,
+				8C40918D1A78252500DB0135 /* CMDParser */,
+				8C4091881A7822B300DB0135 /* Errors */,
+				8C40917E1A78229400DB0135 /* main.cpp */,
+			);
+			path = TextParser;
+			sourceTree = "<group>";
+		};
+		8C4091881A7822B300DB0135 /* Errors */ = {
+			isa = PBXGroup;
+			children = (
+				8C4091861A7822AC00DB0135 /* Error.h */,
+				8C40918A1A78238500DB0135 /* CommonError.cpp */,
+				8C40918B1A78238500DB0135 /* CommonError.h */,
+			);
+			name = Errors;
+			sourceTree = "<group>";
+		};
+		8C40918D1A78252500DB0135 /* CMDParser */ = {
+			isa = PBXGroup;
+			children = (
+				8C40918E1A78254600DB0135 /* CMDParser.cpp */,
+				8C40918F1A78254600DB0135 /* CMDParser.h */,
+			);
+			name = CMDParser;
+			sourceTree = "<group>";
+		};
+		8C5EDB7F1A7F2A9B0012A678 /* Letters */ = {
+			isa = PBXGroup;
+			children = (
+				8C34AD641A7D62BE009553B3 /* Letter.cpp */,
+				8C34AD651A7D62BE009553B3 /* Letter.h */,
+				8C34AD671A7D62CA009553B3 /* ILetter.h */,
+				8C5EDB801A7F2AAE0012A678 /* VowelLetter.h */,
+				8C5EDB811A7F2ACF0012A678 /* ConsonantLetter.h */,
+			);
+			name = Letters;
+			sourceTree = "<group>";
+		};
+		8C5EDB821A813B8C0012A678 /* WordReducer */ = {
+			isa = PBXGroup;
+			children = (
+				8C5EDB831A813BC70012A678 /* WordReducer.cpp */,
+				8C5EDB841A813BC70012A678 /* WordReducer.h */,
+			);
+			name = WordReducer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8C40917A1A78229400DB0135 /* TextParser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C4091821A78229400DB0135 /* Build configuration list for PBXNativeTarget "TextParser" */;
+			buildPhases = (
+				8C4091771A78229400DB0135 /* Sources */,
+				8C4091781A78229400DB0135 /* Frameworks */,
+				8C4091791A78229400DB0135 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TextParser;
+			productName = TextParser;
+			productReference = 8C40917B1A78229400DB0135 /* TextParser */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8C4091731A78229400DB0135 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Vadim Kirilin";
+				TargetAttributes = {
+					8C40917A1A78229400DB0135 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 8C4091761A78229400DB0135 /* Build configuration list for PBXProject "TextParser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8C4091721A78229400DB0135;
+			productRefGroup = 8C40917C1A78229400DB0135 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8C40917A1A78229400DB0135 /* TextParser */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8C4091771A78229400DB0135 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C4091921A78322500DB0135 /* common.cpp in Sources */,
+				8C40917F1A78229400DB0135 /* main.cpp in Sources */,
+				8C34AD661A7D62BE009553B3 /* Letter.cpp in Sources */,
+				8C2916321A7BD27C0087EA1D /* SoundParser.cpp in Sources */,
+				8C4091901A78254600DB0135 /* CMDParser.cpp in Sources */,
+				8C2916371A7BD6C70087EA1D /* TextFile.cpp in Sources */,
+				8C5EDB851A813BC70012A678 /* WordReducer.cpp in Sources */,
+				8C40918C1A78238500DB0135 /* CommonError.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8C4091801A78229400DB0135 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		8C4091811A78229400DB0135 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		8C4091831A78229400DB0135 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				FRAMEWORK_SEARCH_PATHS = /usr/lib/libxml2.dylib;
+				GENERATE_PROFILING_CODE = NO;
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
+				LIBRARY_SEARCH_PATHS = /usr/local/Cellar/libsndfile/1.0.25/lib;
+				OTHER_LDFLAGS = "-lxml2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "/usr/local/Cellar/libsndfile/1.0.25/include /usr/include/libxml2";
+			};
+			name = Debug;
+		};
+		8C4091841A78229400DB0135 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_USE_OPTIMIZATION_PROFILE = YES;
+				FRAMEWORK_SEARCH_PATHS = /usr/lib/libxml2.dylib;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GENERATE_PROFILING_CODE = NO;
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
+				LIBRARY_SEARCH_PATHS = /usr/local/Cellar/libsndfile/1.0.25/lib;
+				OTHER_LDFLAGS = "-lxml2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "/usr/local/Cellar/libsndfile/1.0.25/include /usr/include/libxml2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8C4091761A78229400DB0135 /* Build configuration list for PBXProject "TextParser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C4091801A78229400DB0135 /* Debug */,
+				8C4091811A78229400DB0135 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C4091821A78229400DB0135 /* Build configuration list for PBXNativeTarget "TextParser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C4091831A78229400DB0135 /* Debug */,
+				8C4091841A78229400DB0135 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8C4091731A78229400DB0135 /* Project object */;
+}
